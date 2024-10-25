@@ -6,5 +6,6 @@ export default defineConfig({
     server: {
     port: process.env.PORT as unknown as number,
   },
-  plugins: [react()], [vercel()]
+  plugins: [react()],
+  plugins: [vercel()],
 });
